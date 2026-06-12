@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>440 taktų — parama Emilijai Joanai Šoriūtei | Rotary klubas „Vytis"</title>
+<meta name="description" content="Ji atsisakė Londono dėl Teksaso. 22 000 € = 440 taktų po 50 €. Jau surinkta beveik pusė — liko 240 taktų. Paramos rečitalis birželio 18 d. Įėjimas nemokamas, būtina registracija.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="440 taktų — Emilija važiuoja į Fort Vortą. Vienas taktas gali būti tavo.">
+<meta property="og:description" content="TCU jai skyrė 66 520 USD stipendiją. Jau surinkta ~10 000 € — liko 240 taktų po 50 €. Studijos prasideda rugpjūtį. Organizuoja Vilniaus krašto Rotary klubai.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:locale" content="lt_LT">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF8F1;
+  --paper-deep:#F3EDDF;
+  --ink:#17140F;
+  --ink-soft:#5B554A;
+  --crimson:#8E1E22;
+  --crimson-deep:#6E1418;
+  --gold:#A8853C;
+  --line:#C9C0AC;
+  --staff:#9A917D;
+  --max:1060px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',sans-serif;
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.serif{font-family:'Cormorant Garamond',serif}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+a{color:var(--crimson)}
+.eyebrow{
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:600;
+}
+/* ---------- Hero ---------- */
+.hero{text-align:center;padding:54px 22px 48px;position:relative}
+.hero .rule{
+  width:min(560px,86%);margin:0 auto;
+  border-top:1px solid var(--ink);position:relative;
+}
+.hero .rule.double::after{
+  content:"";display:block;border-top:1px solid var(--ink);margin-top:3px;
+}
+.hero .org{margin:18px 0 6px}
+.hero .org-logo{height:44px;margin:8px auto 22px;display:block}
+.hz{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(96px,18vw,190px);
+  font-weight:700;line-height:.95;letter-spacing:-.02em;color:var(--ink);
+}
+.hz small{
+  display:block;font-size:clamp(15px,2.4vw,21px);
+  font-weight:500;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--crimson);margin-top:10px;font-family:'Inter',sans-serif;
+}
+.hero h1{
+  font-family:'Cormorant Garamond',serif;font-weight:500;font-style:italic;
+  font-size:clamp(21px,3.4vw,30px);max-width:640px;margin:26px auto 8px;color:var(--ink);
+}
+.hero .sub{color:var(--ink-soft);max-width:560px;margin:0 auto 26px;font-size:15px}
+.hero-figure{max-width:640px;margin:8px auto 4px}
+.hero-figure img{width:100%;display:block;border:1px solid var(--line)}
+.hero-figure figcaption{font-size:12px;color:var(--ink-soft);margin-top:8px;letter-spacing:.06em}
+.hero .name{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(24px,4vw,34px);font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;margin:22px 0 2px;
+}
+.hero .guest{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.btn{
+  display:inline-block;padding:14px 28px;font-weight:600;font-size:14px;
+  letter-spacing:.04em;text-decoration:none;border-radius:2px;
+  border:1px solid var(--crimson);transition:background .18s,color .18s;
+  cursor:pointer;font-family:'Inter',sans-serif;
+}
+.btn.primary{background:var(--crimson);color:var(--paper)}
+.btn.primary:hover{background:var(--crimson-deep)}
+.btn.ghost{color:var(--crimson);background:transparent}
+.btn.ghost:hover{background:rgba(142,30,34,.07)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+/* ---------- Tuning line ---------- */
+.tuning{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:var(--paper-deep);padding:18px 22px;text-align:center;
+  font-size:14px;color:var(--ink-soft);
+}
+.tuning b{color:var(--ink)}
+/* ---------- Story ---------- */
+.story{background:#fff;border-bottom:1px solid var(--line)}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;max-width:920px;margin:0 auto}
+@media(max-width:760px){.story-grid{grid-template-columns:1fr;gap:26px}}
+.story-grid img{width:100%;display:block;border:1px solid var(--line)}
+.story h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(26px,4vw,36px);margin:8px 0 14px}
+.story p{font-size:15px;color:var(--ink-soft);margin-bottom:12px}
+.story p b{color:var(--ink)}
+.story .pull{
+  font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;
+  color:var(--ink);border-left:3px solid var(--crimson);padding-left:16px;margin:18px 0 0;
+}
+/* ---------- Sections ---------- */
+section{padding:64px 0}
+.sec-head{text-align:center;margin-bottom:38px}
+.sec-head h2{
+  font-family:'Cormorant Garamond',serif;font-weight:600;
+  font-size:clamp(28px,4.4vw,40px);margin-top:8px;
+}
+.sec-head p{color:var(--ink-soft);max-width:540px;margin:10px auto 0;font-size:15px}
+/* ---------- How it works ---------- */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;max-width:880px;margin:0 auto}
+@media(max-width:720px){.steps{grid-template-columns:1fr;gap:26px}}
+.step{text-align:center}
+.step .glyph{
+  font-family:'Cormorant Garamond',serif;font-size:40px;line-height:1;
+  color:var(--crimson);margin-bottom:12px;
+}
+.step h3{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:600;margin-bottom:6px}
+.step p{font-size:14px;color:var(--ink-soft)}
+/* ---------- Score ---------- */
+#partitura{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.progress-line{
+  display:flex;justify-content:space-between;align-items:baseline;
+  max-width:760px;margin:0 auto 8px;font-size:14px;color:var(--ink-soft);
+  flex-wrap:wrap;gap:6px;
+}
+.progress-line .big{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--ink);font-weight:600}
+.progress-bar{
+  max-width:760px;margin:0 auto 36px;height:6px;background:var(--paper-deep);
+  border:1px solid var(--line);border-radius:3px;overflow:hidden;
+}
+.progress-bar i{display:block;height:100%;background:var(--crimson)}
+.score{max-width:760px;margin:0 auto}
+.stave{
+  display:grid;grid-template-columns:repeat(var(--mpr,8),1fr);
+  margin-bottom:26px;border-left:2px solid var(--ink);
+}
+.measure{
+  position:relative;height:58px;cursor:pointer;border-right:1px solid var(--ink);
+  background:
+    linear-gradient(var(--staff),var(--staff)) 0 9px/100% 1px no-repeat,
+    linear-gradient(var(--staff),var(--staff)) 0 19px/100% 1px no-repeat,
+    linear-gradient(var(--staff),var(--staff)) 0 29px/100% 1px no-repeat,
+    linear-gradient(var(--staff),var(--staff)) 0 39px/100% 1px no-repeat,
+    linear-gradient(var(--staff),var(--staff)) 0 49px/100% 1px no-repeat;
+  transition:background-color .15s;
+}
+.measure:hover{background-color:rgba(168,133,60,.10)}
+.measure:focus-visible{outline:3px solid var(--gold);outline-offset:-3px;z-index:2}
+.measure .num{
+  position:absolute;top:-15px;left:2px;font-size:9px;color:var(--staff);
+  font-variant-numeric:tabular-nums;
+}
+.measure.sold{background-color:var(--paper-deep);cursor:default}
+.measure.sold::after{
+  content:"♪";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:22px;color:var(--crimson);
+}
+.measure.selected{background-color:rgba(142,30,34,.14);box-shadow:inset 0 0 0 2px var(--crimson)}
+.measure.selected::after{
+  content:"♩";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:22px;color:var(--crimson);
+}
+.score-legend{
+  display:flex;gap:22px;justify-content:center;flex-wrap:wrap;
+  font-size:12.5px;color:var(--ink-soft);margin-top:6px;
+}
+.score-legend span::before{content:"";display:inline-block;width:11px;height:11px;margin-right:6px;vertical-align:-1px;border:1px solid var(--line)}
+.score-legend .l-sold::before{background:var(--paper-deep)}
+.score-legend .l-sel::before{background:rgba(142,30,34,.14);border-color:var(--crimson)}
+.score-legend .l-free::before{background:#fff}
+.tip{
+  position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--paper);
+  font-size:12.5px;padding:7px 11px;border-radius:3px;max-width:240px;opacity:0;transition:opacity .12s;
+}
+.tip.show{opacity:1}
+/* ---------- Cart ---------- */
+.cart{position:sticky;bottom:0;z-index:40;background:var(--ink);color:var(--paper);padding:14px 22px;display:none}
+.cart.active,.cart.show{display:block}
+.cart .sum .gold{color:var(--gold)}
+.cart .inner{
+  max-width:760px;margin:0 auto;display:flex;align-items:center;
+  justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+.cart .sum{font-size:14px}
+.cart .sum b{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600}
+.cart .btn{border-color:var(--paper);color:var(--ink);background:var(--paper)}
+.cart .btn:hover{background:#fff}
+.cart .clear{background:none;border:none;color:var(--paper);opacity:.7;font-size:13px;cursor:pointer;text-decoration:underline}
+/* ---------- Programme ---------- */
+.programme{max-width:680px;margin:0 auto}
+.prog-item{display:flex;align-items:baseline;gap:10px;padding:22px 0;border-bottom:1px solid var(--line)}
+.prog-item:first-child{border-top:1px solid var(--ink)}
+.prog-item:last-child{border-bottom:1px solid var(--ink)}
+.prog-item h3{font-family:'Cormorant Garamond',serif;font-size:23px;font-weight:600;white-space:nowrap}
+.prog-item .dots{flex:1;border-bottom:1px dotted var(--staff);transform:translateY(-5px);min-width:30px}
+.prog-item .price{font-family:'Cormorant Garamond',serif;font-size:23px;font-weight:700;white-space:nowrap;color:var(--crimson)}
+.prog-item .desc{flex-basis:100%;font-size:14px;color:var(--ink-soft);margin-top:2px}
+.prog-item .desc b{color:var(--ink);font-weight:600}
+.prog-note{font-size:13px;color:var(--ink-soft);text-align:center;margin-top:18px;font-style:italic}
+/* ---------- EN strip ---------- */
+.en-strip{background:var(--ink);color:var(--paper);text-align:center}
+.en-strip .eyebrow{color:var(--gold)}
+.en-strip h2{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,4vw,36px);font-weight:600;margin:8px 0 14px}
+.en-strip p{max-width:600px;margin:0 auto 26px;color:#D8D2C4;font-size:15px}
+.en-strip .btn{border-color:var(--gold);color:var(--gold)}
+.en-strip .btn:hover{background:rgba(168,133,60,.14)}
+/* ---------- Concert ---------- */
+.concert{text-align:center}
+.concert .date{font-family:'Cormorant Garamond',serif;font-size:clamp(30px,5vw,44px);font-weight:600;margin:6px 0 4px}
+.concert .venue{color:var(--ink-soft);font-size:15px}
+.concert .meta{margin-top:22px;font-size:14px;color:var(--ink-soft)}
+.concert .encore{
+  max-width:520px;margin:26px auto 0;padding:18px 22px;
+  border:1px solid var(--line);background:var(--paper-deep);
+  font-size:14px;color:var(--ink-soft);
+}
+.concert .encore b{color:var(--crimson)}
+.concert-figure{max-width:300px;margin:34px auto 0}
+.concert-figure img{width:100%;display:block;border:1px solid var(--line)}
+/* ---------- Sponsor strip ---------- */
+.sponsor-strip{
+  border-top:1px solid var(--line);background:#fff;
+  padding:30px 22px;text-align:center;
+}
+.sponsor-strip .eyebrow{margin-bottom:14px}
+.sponsor-strip .logos{display:flex;align-items:center;justify-content:center;gap:44px;flex-wrap:wrap}
+.sponsor-strip .logos img{height:54px;display:block}
+.sponsor-strip .logos img.apg{height:64px}
+.sponsor-strip .logos .sep{width:1px;height:44px;background:var(--line)}
+.sponsor-strip p{font-size:13px;color:var(--ink-soft);margin-top:14px}
+/* ---------- Footer ---------- */
+footer{border-top:1px solid var(--line);padding:30px 22px 40px;text-align:center;font-size:13px;color:var(--ink-soft)}
+footer .fin{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:17px;color:var(--ink);margin-bottom:8px}
+/* ---------- Modal ---------- */
+.modal-bg{
+  position:fixed;inset:0;background:rgba(23,20,15,.55);z-index:60;
+  display:none;align-items:center;justify-content:center;padding:22px;
+}
+.modal-bg.open{display:flex}
+.modal{
+  background:var(--paper);max-width:480px;width:100%;
+  padding:34px 30px;border-radius:3px;border-top:4px solid var(--crimson);
+  max-height:88vh;overflow:auto;
+}
+.modal h3{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;margin-bottom:6px}
+.modal p{font-size:14px;color:var(--ink-soft);margin-bottom:14px}
+.modal .bank{
+  background:#fff;border:1px solid var(--line);border-radius:3px;
+  padding:16px;font-size:13.5px;line-height:1.9;margin-bottom:8px;
+}
+.modal .bank b{font-weight:600}
+.modal .bank .copyrow{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.copybtn{
+  background:var(--paper-deep);border:1px solid var(--line);border-radius:2px;
+  font-size:11px;padding:3px 9px;cursor:pointer;color:var(--ink-soft);
+  font-family:'Inter',sans-serif;white-space:nowrap;
+}
+.copybtn:hover{border-color:var(--gold);color:var(--ink)}
+.copybtn.done{border-color:var(--crimson);color:var(--crimson)}
+.modal .trust{
+  display:flex;align-items:center;gap:12px;margin:0 0 18px;
+  font-size:12px;color:var(--ink-soft);
+}
+.modal .trust img{height:34px}
+.modal .row{display:flex;gap:10px;flex-wrap:wrap}
+.modal .close{
+  background:none;border:none;color:var(--ink-soft);font-size:13px;
+  cursor:pointer;text-decoration:underline;margin-top:14px;
+}
+/* ---------- Rezervuoti (neapmokėti) taktai ---------- */
+.measure.sold.reserved{background-color:rgba(168,133,60,.12)}
+.measure.sold.reserved::after{content:"♩";color:var(--gold)}
+.score-legend .l-res::before{background:rgba(168,133,60,.18);border-color:var(--gold)}
+/* ---------- Rezervacijos forma ---------- */
+.modal .field{margin-bottom:12px}
+.modal .field label{display:block;font-size:12.5px;color:var(--ink-soft);margin-bottom:4px}
+.modal .field input{
+  width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:2px;
+  font-family:'Inter',sans-serif;font-size:14px;background:#fff;color:var(--ink);
+}
+.modal .field input:focus{outline:2px solid var(--gold)}
+.modal .checkline{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--ink-soft);margin:4px 0 14px;cursor:pointer}
+.modal .checkline input{margin-top:3px}
+.modal .err{color:var(--crimson);font-size:13px;margin-bottom:10px;display:none}
+.modal .err.show{display:block}
+.modal .formnote{font-size:12px;color:var(--ink-soft);font-style:italic;margin-top:14px}
+/* ---------- Citatų kortelės ---------- */
+.notes5{background:var(--paper)}
+.quote-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:980px;margin:0 auto}
+.qcard{background:#fff;border:1px solid var(--line);border-top:3px solid var(--crimson);padding:24px 22px}
+.qcard .qlabel{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
+.qcard blockquote{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;line-height:1.4;color:var(--ink)}
+.qcard .qsub{font-size:13px;color:var(--ink-soft);margin-top:10px}
+</style>
+</head>
+<body>
+
+<!-- ============ TITULINIS ============ -->
+<header class="hero">
+  <div class="rule double"></div>
+  <p class="org eyebrow">Vilniaus krašto Rotary klubai &nbsp;·&nbsp; paramos rečitalis</p>
+  <img class="org-logo" src="assets/logo_rc_vytis.png" alt="Rotary klubas Vytis">
+
+  <div class="hz">440<small>taktų · 50 € / taktas</small></div>
+
+  <h1>Kiekvienas pasaulio fortepijonas derinamas pagal 440 Hz.<br>Suderinkime jos ateitį.</h1>
+  <p class="sub">22 000 € metinių pragyvenimo išlaidų Texas Christian University — tai lygiai 440 taktų. Vienas iš jų gali būti tavo.</p>
+
+  <figure class="hero-figure">
+    <img src="assets/emilija-hero.jpg" alt="Emilija Joana Šoriūtė prie fortepijono">
+    <figcaption>EMILIJA JOANA ŠORIŪTĖ · NORDAN SCHOLARSHIP IN MUSIC · TCU, FORT WORTH</figcaption>
+  </figure>
+
+  <p class="name">Emilija Joana Šoriūtė</p>
+  <p class="guest">Rečitalio svečias — prof. Petras Geniušas</p>
+
+  <div class="cta-row">
+    <a class="btn primary" href="#partitura">Nupirkti savo taktą</a>
+    <a class="btn ghost" href="#programa">Mecenatams</a>
+  </div>
+  <div class="rule double" style="margin-top:46px"></div>
+</header>
+
+<div class="tuning">
+  Ji buvo priimta į <b>abi Londono karališkąsias muzikos akademijas</b> — ir pasirinko Teksasą dėl vieno profesoriaus. TCU atsakė <b>„Nordan Scholarship in Music"</b>: 66 520 USD metinis studijų mokestis padengtas visas. Liko vienintelis taktas tarp Emilijos ir Fort Vorto — <b>pragyvenimo išlaidos</b>.<br><br>
+  <b>Kodėl skubu:</b> studijos prasideda jau rugpjūtį, o studento vizai gauti universitetui pirmiausia būtina pateikti įrodymus, kad <b>visa suma užtikrinta</b>. Jau surinkta ~10 000 € — trūksta 12 000 €.
+</div>
+
+<!-- ============ ISTORIJA ============ -->
+<section class="story">
+  <div class="wrap">
+    <div class="story-grid">
+      <img src="assets/img/img-act1-comeback.jpg" alt="Jaunos rankos virš fortepijono klavišų">
+      <div>
+        <p class="eyebrow">Kodėl „atstatyk taktą"</p>
+        <h2>Aštuntoje klasėje ji nebemokėjo skaityti natų.</h2>
+        <p>Šeštoje klasėje Emilija paliko fortepijoną dėl baleto. Grįžusi po trejų metų ji nebemokėjo skaityti natų — ir atstatė viską nuo nulio: taktą po takto, iki stipendijos, kurią laimi vienas iš tūkstančių.</p>
+        <p>Dabar mūsų eilė. <b>440 taktų po 50 €</b> — paskutinė trūkstama jos partitūros dalis. Tavo vardas įrašomas prie takto, o po koncerto gausi įrašą su tikslia sekunde, kuri suskambėjo dėl tavęs.</p>
+        <p class="pull">„Negaliu tuo patikėti." — Emilija, sužinojusi apie stipendiją</p>
+        <p style="margin-top:14px"><a href="https://www.lrt.lt/naujienos/svietimas/45/2933203/abituriente-emilija-pelne-stipendija-prestizineje-muzikos-mokykloje-negaliu-tuo-patiketi" target="_blank" rel="noopener">Visa Emilijos istorija — LRT straipsnyje-interviu →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KAIP VEIKIA ============ -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Kaip tai veikia</p>
+      <h2>Tu ne aukoji. Tu įsigyji sekundę muzikos.</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="glyph">♪</div>
+        <h3>Pasirink taktą</h3>
+        <p>Partitūroje žemiau pasirink vieną ar kelis laisvus taktus. Vienas taktas — 50 €.</p>
+      </div>
+      <div class="step">
+        <div class="glyph">𝄞</div>
+        <h3>Tavo vardas — partitūroje</h3>
+        <p>Tavo vardas įrašomas prie takto. Partitūra rugsėjį keliaus kartu su Emilija į Fort Vortą — Van Cliburno konkurso miestą.</p>
+      </div>
+      <div class="step">
+        <div class="glyph">𝄐</div>
+        <h3>Išgirsk savo sekundę</h3>
+        <p>Po birželio 18 d. rečitalio gausi įrašą su tikslia laiko žyme: <em>„Jūsų taktas skamba 2:34."</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PENKIOS NATOS (kampai) ============ -->
+<section class="notes5">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Penkios natos apie Emiliją</p>
+      <h2>Istorija, kuri įkvepia tikėti talentu.</h2>
+      <p>Jos pačios žodžiais — iš LRT interviu.</p>
+    </div>
+    <div class="quote-grid">
+      <div class="qcard">
+        <p class="qlabel">Pašaukimas</p>
+        <blockquote>„Laiko prie fortepijono nevadinu vienatve, tai – pilnatvė."</blockquote>
+        <p class="qsub">Ilgos valandos prie instrumento — ne auka, o džiaugsmas daryti tai, ką myli.</p>
+      </div>
+      <div class="qcard">
+        <p class="qlabel">Atsidavimas</p>
+        <blockquote>„Labai daug dirbau visus tuos trejus metus."</blockquote>
+        <p class="qsub">Talentas be darbo — tik potencialas. Jos darbą įvertino viena konkurencingiausių stipendijų JAV.</p>
+      </div>
+      <div class="qcard">
+        <p class="qlabel">Svajonės pildosi</p>
+        <blockquote>„Negaliu tuo patikėti."</blockquote>
+        <p class="qsub">Trys prestižinės pasaulio muzikos mokyklos pasakė „taip". Lietuvos talentai laukiami geriausiose scenose.</p>
+      </div>
+      <div class="qcard">
+        <p class="qlabel">Palaikymo galia</p>
+        <blockquote>„Man net keista ją vadinti mokytoja – ji tarsi mama. Buvo ir laimės ašarų."</blockquote>
+        <p class="qsub">Už kiekvieno talento — palaikanti bendruomenė. Dabar prie jos gali prisijungti ir tu.</p>
+      </div>
+      <div class="qcard">
+        <p class="qlabel">Drąsa būti scenoje</p>
+        <blockquote>„Man labai gera būti ant scenos ir tuo mėgaujuosi. Siekiu tapti koncertuojančia pianiste."</blockquote>
+        <p class="qsub">Birželio 18 d. tą sceną jai padovanos jos pačios mokykla. O 440 taktų — visa Lietuva.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTITŪRA ============ -->
+<section id="partitura">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Gyva partitūra</p>
+      <h2>440 taktų. Beveik pusė jau skamba.</h2>
+      <p>Iki birželio 12 d. ankstyvieji rėmėjai jau užpildė pirmuosius 200 taktų (~10 000 €). Užvesk arba paliesk užimtą taktą — pamatysi, kieno jis. Atnaujinama du kartus per dieną (12:00 ir 20:00).</p>
+    </div>
+
+    <div class="progress-line">
+      <span><span class="big" id="soldCount">0</span> / 440 taktų</span>
+      <span>surinkta <b id="soldEur">0 €</b> iš 22 000 €</span>
+    </div>
+    <div class="progress-bar"><i id="progressFill" style="width:0%"></i></div>
+
+    <div class="score" id="score" aria-label="440 taktų partitūra"></div>
+
+    <div class="score-legend">
+      <span class="l-free">laisvas taktas</span>
+      <span class="l-sold">jau skamba</span>
+      <span class="l-res">rezervuota</span>
+      <span class="l-sel">tavo pasirinkimas</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMA (PAKETAI) ============ -->
+<section id="programa">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Paramos programa</p>
+      <h2>Programa</h2>
+      <p>Kaip koncerto programoje — pasirink savo kūrinį.</p>
+    </div>
+
+    <div class="programme">
+      <div class="prog-item">
+        <h3>Taktas</h3><span class="dots"></span><span class="price">50 €</span>
+        <p class="desc">Vardas partitūroje · rečitalio įrašas su <b>tavo takto laiko žyme</b>.</p>
+      </div>
+      <div class="prog-item">
+        <h3>Frazė <span style="font-size:15px;color:var(--ink-soft)">(4 taktai)</span></h3><span class="dots"></span><span class="price">200 €</span>
+        <p class="desc">Viskas, kas takte, + <b>Emilijos ranka pasirašyta partitūros faksimilė</b> (PDF) ir asmeninė padėka. Klubams: jūsų klubo vardas — partitūroje, kuri keliaus į Teksasą.</p>
+      </div>
+      <div class="prog-item">
+        <h3>Mecenato akordas</h3><span class="dots"></span><span class="price">1 000 €</span>
+        <p class="desc">Verslui: <b>20 taktų</b>, logotipas koncerto ekrane ir programėlėje, vieša padėka LinkedIn ir Rotary kanaluose. Sąskaitą išrašome per 24 val.</p>
+      </div>
+      <div class="prog-item">
+        <h3>Generalinis mecenatas</h3><span class="dots"></span><span class="price">2 200 €</span>
+        <p class="desc"><b>10 % viso tikslo.</b> Visa, kas akorde, + asmeninis Emilijos mini-rečitalis jūsų įmonėje, kai ji grįš atostogų.</p>
+      </div>
+    </div>
+    <p class="prog-note">Mecenatams: rašykite tiesiogiai — sutarsime dėl sąskaitos ir matomumo per 24 val.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#" data-open-modal>Paremti dabar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EN / DIASPORA ============ -->
+<section class="en-strip">
+  <div class="wrap">
+    <p class="eyebrow">For friends abroad</p>
+    <h2>She turned down London. America already said yes.</h2>
+    <p>Emilija was accepted by both of London's royal music academies — and chose Texas Christian University, home city of the Van Cliburn Competition, for one professor. TCU answered with the Nordan Scholarship: $66,520 a year, full tuition. The only thing between her and Fort Worth is living costs. Buy a measure of her music for $55, and after the June 18 recital you'll hear the exact second you made possible.</p>
+    <a class="btn" href="#partitura">Buy a measure</a>
+  </div>
+</section>
+
+<!-- ============ KONCERTAS ============ -->
+<section class="concert">
+  <div class="wrap">
+    <p class="eyebrow">Paramos rečitalis · salė, kuri ją užaugino</p>
+    <p class="date">Birželio 18 d., 19:00</p>
+    <p class="venue">Nacionalinė M. K. Čiurlionio menų mokykla · S. Sondeckio koncertų salė, Vilnius</p>
+    <p class="meta">Rečitalio svečias — prof. Petras Geniušas · Organizuoja Vilniaus krašto Rotary klubai</p>
+    <div class="encore">
+      <b>Bisas užrakintas.</b> Schumanno „Träumerei" suskambės tik tada, kai partitūroje suskambės visi 440 taktų. Fojė lauks du lagaminai — tie patys, su kuriais Emilija išskris į Fort Vortą.
+    </div>
+    <figure class="concert-figure">
+      <img src="assets/img/img-suitcases.jpg" alt="Du lagaminai prie fortepijono scenoje">
+    </figure>
+    <p class="meta" style="margin-top:26px"><b style="color:var(--ink)">Renginys nemokamas</b> — tačiau vietų skaičius ribotas, todėl prašome užsiregistruoti.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="[REGISTRACIJOS-FORMOS-NUORODA]" target="_blank" rel="noopener">Registruotis į rečitalį (nemokama)</a>
+      <a class="btn ghost" href="#" data-open-modal>Paremti</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RĖMĖJAS ============ -->
+<div class="sponsor-strip">
+  <p class="eyebrow">Projekto rėmėjai</p>
+  <div class="logos">
+    <a href="https://rcvytis.lt" target="_blank" rel="noopener"><img src="assets/logo_rc_vytis.png" alt="Rotary klubas Vytis"></a>
+    <span class="sep"></span>
+    <a href="https://apgmedia.lt" target="_blank" rel="noopener"><img class="apg" src="assets/logo_apgmedia.svg" alt="APG Media — skaitmeninės rinkodaros agentūra"></a>
+  </div>
+  <p>Parama pervedama tiesiogiai Emilijai Joanai Šoriūtei studijų išlaidoms padengti. Kampanijos globėjas — Rotary klubas „Vytis". Skaitmeninė rinkodara — <b>APG Media</b>. Kiekvienas pavedimas patvirtinamas el. paštu.</p>
+</div>
+
+<footer>
+  <p class="fin">Fine. — Bet tik tada, kai suskambės visi 440.</p>
+  <p>Vardai partitūroje skelbiami tik gavus sutikimą.<br>Kontaktai: [el. paštas] · [telefonas]</p>
+</footer>
+
+<!-- ============ KREPŠELIS ============ -->
+<div class="cart" id="cart">
+  <div class="inner" id="cartSelect" style="display:none">
+    <span class="sum">Pasirinkta taktų: <b id="cartCount">0</b> &nbsp;·&nbsp; <b id="cartSum">0 €</b></span>
+    <div style="display:flex;gap:14px;align-items:center">
+      <button class="clear" id="cartClear">Išvalyti</button>
+      <button class="btn" data-open-modal>Rezervuoti taktus</button>
+    </div>
+  </div>
+  <div class="inner" id="cartDefault">
+    <span class="sum">Liko <b id="leftCount" class="gold">—</b> iš 440 taktų po 50 €</span>
+    <div style="display:flex;gap:14px;align-items:center">
+      <button class="clear" data-open-modal>paremti laisva suma</button>
+      <a class="btn" href="#partitura">Rezervuoti taktą</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODALAS ============ -->
+<div class="modal-bg" id="modalBg" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <!-- 1 žingsnis: rezervacijos forma -->
+    <div id="step1">
+      <h3 id="modalTitle">Rezervuoti taktus</h3>
+      <p id="modalMeasures">Pasirinkti taktai bus rezervuoti jūsų vardu 48 valandoms.</p>
+      <div class="field">
+        <label for="resName">Vardas, pavardė arba įmonė *</label>
+        <input id="resName" type="text" maxlength="80" placeholder="Vardenis Pavardenis" autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="resEmail">El. paštas (atsiųsime įrašą su jūsų takto laiko žyme) *</label>
+        <input id="resEmail" type="email" maxlength="120" placeholder="vardas@pastas.lt" autocomplete="email">
+      </div>
+      <label class="checkline"><input type="checkbox" id="resConsent" checked> Sutinku, kad vardas būtų skelbiamas partitūroje (nepažymėjus rodysime „Anonimas")</label>
+      <p class="err" id="resErr"></p>
+      <div class="row">
+        <button class="btn primary" id="reserveBtn">Rezervuoti taktus</button>
+      </div>
+      <p class="formnote">Rezervacija galioja 48 val. — per tą laiką atlikite pavedimą, kitaip taktai vėl taps laisvi.</p>
+    </div>
+    <!-- 2 žingsnis: apmokėjimas -->
+    <div id="step2" style="display:none">
+      <h3>Taktai rezervuoti! Liko pavedimas.</h3>
+      <p id="payMeasures"></p>
+      <div class="bank">
+        <div class="copyrow"><span><b>Gavėjas:</b> <span id="bankName">EMILIJA JOANA ŠORIŪTĖ</span></span><button class="copybtn" data-copy="#bankName">kopijuoti</button></div>
+        <div class="copyrow"><span><b>Sąskaita:</b> <span id="bankIban">LT167300010157348706</span></span><button class="copybtn" data-copy="#bankIban">kopijuoti</button></div>
+        <div class="copyrow"><span><b>Suma:</b> <span id="modalSum">50 €</span></span><button class="copybtn" data-copy="#modalSum">kopijuoti</button></div>
+        <div class="copyrow"><span><b>Paskirtis:</b> <span id="modalPurpose">Parama - [Vardas, Pavardė]</span></span><button class="copybtn" data-copy="#modalPurpose">kopijuoti</button></div>
+      </div>
+      <div class="trust">
+        <img src="assets/logo_rc_vytis.png" alt="Rotary klubas Vytis">
+        <span>Parama pervedama tiesiogiai Emilijai studijų išlaidoms. Kampanijos globėjas — Rotary klubas „Vytis". Gavę pavedimą patvirtinsime el. paštu, o jūsų taktas partitūroje pradės skambėti.</span>
+      </div>
+      <div class="row">
+        <a class="btn ghost" id="mailtoBtn" href="mailto:">Turite klausimų? Parašykite</a>
+      </div>
+    </div>
+    <button class="close" data-close-modal>Uždaryti</button>
+  </div>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script>
+/* =====================================================================
+   IKI KAMPANIJOS SURINKTA SUMA (parama.txt: ~10 000 € iki birželio 12 d.)
+   Užpildo pirmuosius taktus kaip „Ankstyvieji rėmėjai".
+   Jei suma tikslinama — keiskite PRE_RAISED_EUR.
+   ===================================================================== */
+const PRE_RAISED_EUR = 10000;
+
+/* =====================================================================
+   NAUJŲ PARDUOTŲ TAKTŲ SĄRAŠAS — atnaujinkite rankiniu būdu 2×/dieną
+   (12:00, 20:00). m — takto numeris (pradėkite nuo pirmo laisvo po
+   ankstyvųjų rėmėjų bloko), name — rėmėjo vardas (tik su sutikimu!).
+   Anoniminiams: name:"Anonimas". Frazė = 4 įrašai iš eilės.
+   ===================================================================== */
+const SOLD = [
+  {m:201, name:"Rotary klubas „Vytis“"},
+  {m:202, name:"Rotary klubas „Vytis“"},
+  {m:203, name:"Rotary klubas „Vytis“"},
+  {m:204, name:"Rotary klubas „Vytis“"},
+  // pridėkite naujus įrašus čia ↓
+];
+
+const TOTAL = 440, PRICE = 50;
+const CONTACT_EMAIL = "parama@example.lt"; // ← pakeiskite prieš startą
+
+/* =====================================================================
+   AUTOMATINĖS REZERVACIJOS — Google Apps Script Web App URL.
+   Diegimo instrukcija: README-DEPLOY.md + apps-script/Code.gs.
+   Palikus tuščią, puslapis veikia rankiniu režimu (SOLD sąrašas aukščiau).
+   ===================================================================== */
+const API_URL = "";
+
+const soldMap = new Map();
+const reservedSet = new Set(); // rezervuota, bet dar neapmokėta
+function rebuildBaseMap(){
+  soldMap.clear(); reservedSet.clear();
+  const preSoldCount = Math.min(TOTAL, Math.floor(PRE_RAISED_EUR / PRICE));
+  for(let m = 1; m <= preSoldCount; m++) soldMap.set(m, "Ankstyvieji rėmėjai (iki birželio 12 d.)");
+  SOLD.forEach(s => soldMap.set(s.m, s.name));
+}
+rebuildBaseMap();
+const selected = new Set();
+
+/* ---- Partitūros piešimas ---- */
+const score = document.getElementById('score');
+function measuresPerRow(){
+  const w = score.clientWidth || 720;
+  return Math.max(4, Math.min(10, Math.floor(w / 72)));
+}
+function render(){
+  const mpr = measuresPerRow();
+  score.innerHTML = '';
+  for(let start = 1; start <= TOTAL; start += mpr){
+    const stave = document.createElement('div');
+    stave.className = 'stave';
+    stave.style.setProperty('--mpr', Math.min(mpr, TOTAL - start + 1));
+    for(let m = start; m < start + mpr && m <= TOTAL; m++){
+      const el = document.createElement('div');
+      el.className = 'measure';
+      el.dataset.m = m;
+      el.setAttribute('tabindex','0');
+      if(m === start || m % 10 === 0){
+        el.innerHTML = `<span class="num">${m}</span>`;
+      }
+      if(soldMap.has(m)){
+        el.classList.add('sold');
+        if(reservedSet.has(m)) el.classList.add('reserved');
+        el.setAttribute('aria-label', `Taktas ${m} — ${soldMap.get(m)}${reservedSet.has(m) ? ' (rezervuota)' : ''}`);
+      } else {
+        el.setAttribute('aria-label', `Taktas ${m} — laisvas, 50 €`);
+        if(selected.has(m)) el.classList.add('selected');
+      }
+      stave.appendChild(el);
+    }
+    score.appendChild(stave);
+  }
+}
+let rT; window.addEventListener('resize', () => { clearTimeout(rT); rT = setTimeout(render, 150); });
+
+/* ---- Progresas ---- */
+function updateProgress(){
+  const n = soldMap.size;
+  document.getElementById('soldCount').textContent = n;
+  document.getElementById('soldEur').textContent = (n * PRICE).toLocaleString('lt-LT') + ' €';
+  document.getElementById('progressFill').style.width = (n / TOTAL * 100).toFixed(1) + '%';
+  document.getElementById('leftCount').textContent = TOTAL - n;
+}
+
+/* ---- Pasirinkimas ---- */
+const cart = document.getElementById('cart');
+function updateCart(){
+  const has = selected.size > 0;
+  document.getElementById('cartCount').textContent = selected.size;
+  document.getElementById('cartSum').textContent = (selected.size * PRICE).toLocaleString('lt-LT') + ' €';
+  cart.classList.toggle('active', has);
+  document.getElementById('cartSelect').style.display = has ? 'flex' : 'none';
+  document.getElementById('cartDefault').style.display = has ? 'none' : 'flex';
+}
+/* Numatytasis CTA pasirodo tik praslinkus pro hero — nesikauna su pagrindiniais mygtukais */
+new IntersectionObserver(es => {
+  cart.classList.toggle('show', !es[0].isIntersecting);
+}).observe(document.querySelector('.hero'));
+function toggleMeasure(el){
+  const m = +el.dataset.m;
+  if(soldMap.has(m)) return;
+  if(selected.has(m)){ selected.delete(m); el.classList.remove('selected'); }
+  else { selected.add(m); el.classList.add('selected'); }
+  updateCart();
+}
+score.addEventListener('click', e => {
+  const el = e.target.closest('.measure'); if(el) toggleMeasure(el);
+});
+score.addEventListener('keydown', e => {
+  if(e.key === 'Enter' || e.key === ' '){
+    const el = e.target.closest('.measure');
+    if(el){ e.preventDefault(); toggleMeasure(el); }
+  }
+});
+document.getElementById('cartClear').addEventListener('click', () => {
+  selected.clear();
+  score.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
+  updateCart();
+});
+
+/* ---- Tooltip ---- */
+const tip = document.getElementById('tip');
+score.addEventListener('mousemove', e => {
+  const el = e.target.closest('.measure');
+  if(el && soldMap.has(+el.dataset.m)){
+    tip.textContent = `Taktas ${el.dataset.m} · ${soldMap.get(+el.dataset.m)}${reservedSet.has(+el.dataset.m) ? ' (rezervuota)' : ''}`;
+    tip.style.left = Math.min(e.clientX + 14, window.innerWidth - 200) + 'px';
+    tip.style.top = (e.clientY + 16) + 'px';
+    tip.classList.add('show');
+  } else tip.classList.remove('show');
+});
+score.addEventListener('mouseleave', () => tip.classList.remove('show'));
+
+/* ---- Kopijavimo mygtukai ---- */
+document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {
+  const t = document.querySelector(b.dataset.copy).textContent.trim();
+  navigator.clipboard.writeText(t).then(() => {
+    b.textContent = 'nukopijuota ✓'; b.classList.add('done');
+    setTimeout(() => { b.textContent = 'kopijuoti'; b.classList.remove('done'); }, 1800);
+  });
+}));
+
+/* ---- Modalas: 1 žingsnis (forma) → 2 žingsnis (pavedimas) ---- */
+const modalBg = document.getElementById('modalBg');
+const step1 = document.getElementById('step1'), step2 = document.getElementById('step2');
+let pendingNums = [];
+
+function openModal(){
+  pendingNums = [...selected].sort((a,b)=>a-b);
+  document.getElementById('resErr').classList.remove('show');
+  if(pendingNums.length){
+    step1.style.display='block'; step2.style.display='none';
+    document.getElementById('modalMeasures').textContent =
+      `Pasirinkti taktai: ${pendingNums.join(', ')} (${pendingNums.length} × ${PRICE} € = ${pendingNums.length*PRICE} €).`;
+  } else {
+    goPay('[Vardas, Pavardė]', []); // laisva suma be konkrečių taktų
+  }
+  modalBg.classList.add('open');
+}
+
+function goPay(name, nums){
+  step1.style.display='none'; step2.style.display='block';
+  document.getElementById('payMeasures').textContent = nums.length
+    ? `Taktai ${nums.join(', ')} rezervuoti 48 valandoms. Atlikite pavedimą šiais rekvizitais:`
+    : 'Paremkite laisva suma šiais rekvizitais:';
+  document.getElementById('modalSum').textContent = (nums.length ? nums.length*PRICE : PRICE).toLocaleString('lt-LT') + ' €';
+  document.getElementById('modalPurpose').textContent = `Parama - ${name}${nums.length ? ' - taktai ' + nums.join(', ') : ''}`;
+  const subject = encodeURIComponent('440 — taktai ' + (nums.join(', ') || '(laisva suma)'));
+  const body = encodeURIComponent(`Sveiki,\n\nrezervavau taktus: ${nums.join(', ') || '(laisva suma)'}.\nVardas: ${name}\n\n`);
+  document.getElementById('mailtoBtn').href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
+}
+
+document.getElementById('reserveBtn').addEventListener('click', async () => {
+  const name = document.getElementById('resName').value.trim();
+  const email = document.getElementById('resEmail').value.trim();
+  const consent = document.getElementById('resConsent').checked;
+  const err = document.getElementById('resErr');
+  if(!name || !/.+@.+\..+/.test(email)){
+    err.textContent = 'Įrašykite vardą ir teisingą el. pašto adresą.'; err.classList.add('show'); return;
+  }
+  err.classList.remove('show');
+  const publicName = consent ? name : 'Anonimas';
+
+  if(!API_URL){ // rankinis režimas — rezervuojame tik šioje naršyklėje
+    pendingNums.forEach(m => { soldMap.set(m, publicName); reservedSet.add(m); });
+    selected.clear(); render(); updateProgress(); updateCart();
+    goPay(name, pendingNums); return;
+  }
+
+  const btn = document.getElementById('reserveBtn');
+  btn.disabled = true; btn.textContent = 'Rezervuojama…';
+  try{
+    const q = `action=reserve&measures=${pendingNums.join(',')}` +
+      `&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&consent=${consent ? 'taip' : 'ne'}`;
+    const r = await jsonp(`${API_URL}?${q}`);
+    if(!r.ok) throw new Error(r.error || 'server');
+    const granted = r.granted || [], conflicts = r.conflicts || [];
+    if(conflicts.length && !granted.length){
+      err.textContent = `Taktai ${conflicts.join(', ')} ką tik buvo rezervuoti kitų. Pasirinkite kitus.`;
+      err.classList.add('show');
+      selected.clear(); await loadReservations(); updateCart();
+      return;
+    }
+    granted.forEach(m => { soldMap.set(m, publicName); reservedSet.add(m); });
+    selected.clear(); render(); updateProgress(); updateCart();
+    goPay(name, granted);
+    if(conflicts.length){
+      document.getElementById('payMeasures').textContent +=
+        ` (Taktai ${conflicts.join(', ')} jau buvo užimti — rezervuoti tik laisvi.)`;
+    }
+  }catch(ex){
+    err.textContent = 'Nepavyko pasiekti rezervacijų sistemos. Pabandykite dar kartą arba tiesiog atlikite pavedimą su taktų numeriais paskirtyje.';
+    err.classList.add('show');
+  }finally{
+    btn.disabled = false; btn.textContent = 'Rezervuoti taktus';
+  }
+});
+
+document.querySelectorAll('[data-open-modal]').forEach(b => b.addEventListener('click', e => { e.preventDefault(); openModal(); }));
+document.querySelector('[data-close-modal]').addEventListener('click', () => modalBg.classList.remove('open'));
+modalBg.addEventListener('click', e => { if(e.target === modalBg) modalBg.classList.remove('open'); });
+document.addEventListener('keydown', e => { if(e.key === 'Escape') modalBg.classList.remove('open'); });
+
+/* ---- Rezervacijų nuskaitymas iš Google Sheets (JSONP, veikia iš statinio puslapio) ---- */
+function jsonp(url, timeout = 10000){
+  return new Promise((resolve, reject) => {
+    const cb = 'cb_' + Math.random().toString(36).slice(2);
+    const s = document.createElement('script');
+    const t = setTimeout(() => { cleanup(); reject(new Error('timeout')); }, timeout);
+    function cleanup(){ delete window[cb]; s.remove(); clearTimeout(t); }
+    window[cb] = data => { cleanup(); resolve(data); };
+    s.onerror = () => { cleanup(); reject(new Error('network')); };
+    s.src = url + (url.includes('?') ? '&' : '?') + 'callback=' + cb;
+    document.body.appendChild(s);
+  });
+}
+
+async function loadReservations(){
+  if(!API_URL) return;
+  try{
+    const r = await jsonp(`${API_URL}?action=list`);
+    if(!r.ok) return;
+    rebuildBaseMap();
+    (r.taken || []).forEach(t => {
+      soldMap.set(t.m, t.name);
+      if(t.status !== 'apmoketa') reservedSet.add(t.m);
+    });
+    render(); updateProgress();
+  }catch(e){ /* tinklo klaida — rodome turimus duomenis */ }
+}
+
+render();
+updateProgress();
+updateCart();
+loadReservations();
+setInterval(loadReservations, 120000); // atnaujinti kas 2 min.
+</script>
+</body>
+</html>
