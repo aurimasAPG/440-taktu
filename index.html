@@ -688,7 +688,7 @@ footer .fin{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1
 
 <footer>
   <p class="fin">Fine. — Bet tik tada, kai suskambės visi 440.</p>
-  <p>Vardai partitūroje skelbiami tik gavus sutikimą.<br>Kontaktai: [el. paštas] · [telefonas]</p>
+  <p>Vardai partitūroje skelbiami tik gavus sutikimą.</p>
 </footer>
 
 <!-- ============ KREPŠELIS ============ -->
@@ -745,9 +745,6 @@ footer .fin{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1
         <img src="assets/logo_rc_vytis.png" alt="Rotary klubas Vytis">
         <span>Parama pervedama tiesiogiai Emilijai studijų išlaidoms. Kampanijos globėjas — Rotary klubas „Vytis“. Gavę pavedimą patvirtinsime el. paštu, o jūsų taktas partitūroje pradės skambėti.</span>
       </div>
-      <div class="row">
-        <a class="btn ghost" id="mailtoBtn" href="mailto:">Turite klausimų? Parašykite</a>
-      </div>
     </div>
     <button class="close" data-close-modal>Uždaryti</button>
   </div>
@@ -778,7 +775,6 @@ const SOLD = [
 ];
 
 const TOTAL = 440, PRICE = 50;
-const CONTACT_EMAIL = "parama@example.lt"; // ← pakeiskite prieš startą
 
 /* =====================================================================
    AUTOMATINĖS REZERVACIJOS — Google Apps Script Web App URL.
@@ -926,9 +922,6 @@ function goPay(name, nums){
     : 'Paremkite laisva suma šiais rekvizitais:';
   document.getElementById('modalSum').textContent = (nums.length ? nums.length*PRICE : PRICE).toLocaleString('lt-LT') + ' €';
   document.getElementById('modalPurpose').textContent = `Parama - ${name}${nums.length ? ' - taktai ' + nums.join(', ') : ''}`;
-  const subject = encodeURIComponent('440 — taktai ' + (nums.join(', ') || '(laisva suma)'));
-  const body = encodeURIComponent(`Sveiki,\n\nrezervavau taktus: ${nums.join(', ') || '(laisva suma)'}.\nVardas: ${name}\n\n`);
-  document.getElementById('mailtoBtn').href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
 }
 
 document.getElementById('reserveBtn').addEventListener('click', async () => {
