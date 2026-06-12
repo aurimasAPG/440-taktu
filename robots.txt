@@ -1,0 +1,29 @@
+# tavotaktas.lt — 440 taktų kampanija
+# Leidžiame visus paieškos ir AI robotus — kampanijai reikia matomumo.
+
+User-agent: *
+Allow: /
+
+# AI paieškos botai (citavimui AI atsakymuose)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://tavotaktas.lt/sitemap.xml
